@@ -56,7 +56,7 @@ const { optimize } = require('webpack');
              filename: "./index.html"
          }),
          new miniCssExtractPlugin({
-             filename: "[name ].css"
+             filename: "[name].css"
          }),
          new cleanWebpackPlugin()
      ],
